@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--  this refers to html coding -->
+<html lang ='en'>
+
+<!-- this is the start of my header.  it is also titling on the tab of the browser -->
+<head>
+	<!-- title on the browser tab -->
+	<title> Samuel Ramli Project Stage 1</title>
+	<!-- this is the link to my CSS stylesheet -->
+	<link rel="stylesheet" href="file:///Sam's%20documents/My%20Udacity/Project-2-Automate-Your-Page/notestyle">
+</head>
+
+<!--  this is the start of my body -->
+<body>
+	<!--  this is the top headings -->
+	<h1>
+		<b>Important Concepts</b>
+	</h1>
+	<div>
+		<!--  this is to create border around heading 2 -->
+		<div class="border">
+			<!--  this is heading 2 with bold lettering -->
+			<h2><b>Lesson 1: The Basics of the Web and HTML</b></h2>
+		</div>
+
+		<!--  this is to create border around my notes -->
+		<div class="border1">
+			<!--  this is the note and its descritpion -->
+			<div class="subject" >
+			<!--  this is heading 3 with bold lettering -->
+				<h3><b>How the Web Works</b></h3>
+
+					<!--  this is the note content.  Some of the notes are italicized for better visual experience -->
+					<!--  links with "href=" allows you to click the underlined blue font and open a new website/ video -->
+					<div class="description">The web is a bunch of computers that communicate with each other. When a person goes to a web page like <a href="http://www.google.com"> www.google.com</a>, their computer sends a <em><b>HTTP Request</b></em> to a <em><b>server</b></em>. The server finds the appropriate HTML document and sends it back to the user's computer where a <em><b>web browser</b></em> interprets the page and displays it on the user's screen. <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496" >This video </a> does a good job of explaining more. </div>
+			</div>
+		</div>
+		<div class="border1">
+			<div class="subject">
+
+				<h3><b>HTML</b></h3>
+					<div class="description">HTML stands for <em><b>HyperText Markup Language</b></em>. HTML documents form the majority of the content on the web. HTML documents contain <em><b>text content</b></em> which describes "what you see" and <em>markup</em> which describes "how it looks". <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48724340">This video </a> gives a good overview.</div>
+			</div>
+		</div>
+		<div class="border1">
+			<div class="subject">
+
+				<h3><b>Tags and Elements</b></h3>
+
+					<div class="description">HTML documents are made of HTML <b>elements</b>. When writing HTML, we tell browsers the type of each element by using HTML <b>tags</b>. <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/m-48723444"> This video </a> explains the distinction well.</div>
+			</div>
+		</div>
+		<div class="border1">
+			<div class="subject">
+
+				<h3><b>Why Computers are Stupid</b></h3>
+
+
+					<div class="description">Computers are stupid because they interpret instructions literally. This makes them very unforgiving since a small mistake by a programmer can cause huge problems in a program.</div>
+			</div>
+		</div>
+		<div class="border1">
+			<div class="subject">
+
+				<h3><b>Inline vs Block Elements</b></h3>
+
+					<div class="description">HTML elements are either <b>inline</b> or <b>block</b>. Block elements form an "invisible box" around the content inside of them.</div>
+			</div>
+		</div>
+		<p>
+		</p>
+			<div class="border">
+			<h2><b>Lesson 2: Creating a Structured Document with HTML</b></h2>
+		</div>
+
+		<div class="border1">
+			<div class="subject">
+					<h3><b>Developer Tools (in the Browser)</b></h3>
+
+					<div class="description">HTML elements are either <b>inline</b> or <b>block</b>. Block elements form an "invisible box" around the content inside of them. </div>
+			</div>
+		</div>
+		<div class="border1">
+			<div class="subject">
+
+				<h3><b>The "tree-like structure" of HTML</b></h3>
+
+					<div class="description">The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did her mother, and so on... In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on... </div>
+			</div>
+		</div>
+		<div class="border1">
+			<div class="subject">
+
+				<h3><b>The relationship between indented HTML and boxes </b></h3>
+
+					<div class="description">When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested it's corresponding "box" is.</div>
+			</div>
+		</div>
+		<div class="border1" >
+			<div class="subject" >
+
+				<h3><b>Text Editors (for programming)</b></h3>
+
+					<div class="description">When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.</div>
+			</div>
+
+		</div>
+	</div>
+</html>
